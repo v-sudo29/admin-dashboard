@@ -23,13 +23,33 @@ body {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     padding: 20px;
+
+    display: grid;
+    grid-template-rows: 1fr 3fr 5fr;
 }
 
 .icon-title {
     border: 2px solid black;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
 
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.icon {
+    border: 2px solid red;
+}
+
+.dashboard-text {
+    border: 2px solid red;
+}
+
+.nav-links1 {
+    border: 2px solid black;
+}
+
+.nav-links2 {
+    border: 2px solid black;
 }
 
 /* Header */
