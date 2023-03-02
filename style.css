@@ -49,7 +49,7 @@ body {
         border: 2px solid black;
     }
 
-    .nav-links1 > div {
+    .nav-links1 > div, .nav-links2 > div {
         display: flex;
         gap: 20px;
         margin-bottom: 20px;
@@ -58,12 +58,14 @@ body {
     /* Bottom Nav Links */
     .nav-links2 {
         border: 2px solid black;
+
+        
     }
 
-    /* Header */
-    .header-container {
-        border: 2px solid red;
-    }
+/* Header */
+.header-container {
+    border: 2px solid red;
+}
 
 /* Main Content */
 .main-content-container {
