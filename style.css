@@ -22,6 +22,14 @@ body {
 
     grid-column: 1 / 2;
     grid-row: 1 / 3;
+    padding: 20px;
+}
+
+.icon-title {
+    border: 2px solid black;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 /* Header */
