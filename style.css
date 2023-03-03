@@ -155,8 +155,6 @@ body {
 
     /* Bottom Half */
     .header-bottom {
-        border: 2px solid gray;
-
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 30px;
@@ -164,8 +162,6 @@ body {
 
         /* Left Half */
         .header-bottom-left {
-            border: 2px solid gray;
-
             display: flex;
             align-items: center;
             gap: 20px;
@@ -173,12 +169,12 @@ body {
 
         .hi-there-content {
             display: grid;
-            gap: 5px;
+            gap: 10px;
         }
 
         .hi-there-icon > img {
-            width: 75px;
-            height: 75px;
+            width: 90px;
+            height: 90px;
         }
 
         #hi-there {
@@ -187,7 +183,7 @@ body {
         }
 
         #bold-name {
-            font-size: 25px;
+            font-size: 30px;
             font-weight: 500;
         }
 
