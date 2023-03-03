@@ -118,8 +118,30 @@ body {
             align-items: center;
             gap: 20px;
         }
-        
+
 /* Main Content */
 .main-content-container {
     border: 2px solid green;
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 35px 15px;
 }
+
+    /* Projects */
+    .projects-container {
+        border: 2px solid green;
+        
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Announcements */
+    .announcements-trending-container {
+        border: 2px solid green;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
