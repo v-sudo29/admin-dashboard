@@ -65,6 +65,7 @@ body {
     border: 2px solid red;
     
     padding: 20px 35px;
+    display: grid;
 }
 
     /* Top Half */
@@ -80,7 +81,6 @@ body {
             border: 2px solid green;
 
             display: flex;
-            align-items: center;
             gap: 15px;
         }
 
@@ -93,7 +93,32 @@ body {
         }
 
     /* Bottom Half */
+    .header-bottom {
+        border: 2px solid gray;
 
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+        /* Left Half */
+        .header-bottom-left {
+            border: 2px solid gray;
+
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        /* Right Half */
+        .header-bottom-right {
+            border: 2px solid gray;
+
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 20px;
+        }
+        
 /* Main Content */
 .main-content-container {
     border: 2px solid green;
