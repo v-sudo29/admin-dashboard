@@ -36,15 +36,15 @@ body {
     
 }
 
-.icon {
-    border: 2px solid red;
-}
-
 .dashboard-text {
     border: 2px solid red;
 }
 
     /* Top Nav Links */
+    svg {
+        width: 30px;
+    }
+
     .nav-links1 {
         border: 2px solid black;
     }
