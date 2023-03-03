@@ -58,14 +58,41 @@ body {
     /* Bottom Nav Links */
     .nav-links2 {
         border: 2px solid black;
-
-        
     }
 
 /* Header */
 .header-container {
     border: 2px solid red;
+    
+    padding: 20px 35px;
 }
+
+    /* Top Half */
+    .header-top {
+        border: 2px solid red;
+
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+        /* Search Bar */
+        .icon-search-bar {
+            border: 2px solid green;
+
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        /* Notification Pfp Name */
+        .notification-picture-name {
+            border: 2px solid green;
+            display: flex;
+            justify-content: flex-end;
+            gap: 15px;
+        }
+
+    /* Bottom Half */
 
 /* Main Content */
 .main-content-container {
