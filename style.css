@@ -93,6 +93,7 @@ body, html {
     padding-bottom: 20px;
     display: grid;
     z-index: 1;
+    gap: 20px;
 
     box-shadow: 2px 2px 3px rgb(0 0 0 / 0.15);
 }
@@ -152,6 +153,11 @@ body, html {
             height: 45px;
         }
 
+        .top-right-pair {
+            display: flex;
+            gap: 12px;
+        }
+
         #top-right-name {
             font-size: 18px;
             font-weight: 700;
@@ -174,12 +180,12 @@ body, html {
 
         .hi-there-content {
             display: grid;
-            gap: 10px;
+            gap: 5px;
         }
 
         .hi-there-icon > img {
-            width: 90px;
-            height: 90px;
+            width: 70px;
+            height: 70px;
         }
 
         #hi-there {
