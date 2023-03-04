@@ -20,6 +20,7 @@ body, html {
 .body-container {
     display: grid;
     grid-template-columns: 1fr 5fr;
+    position: absolute;
 }
 /* Sidebar */
 .sidebar-container {
@@ -256,7 +257,7 @@ body, html {
     .cards-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, minmax(200px, 265px));
+        grid-template-rows: repeat(3, minmax(0px, 265px));
         gap: 25px;
     }
 
