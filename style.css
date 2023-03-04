@@ -145,8 +145,8 @@ body, html {
         }
 
         img {
-            width: 60px;
-            height: 60px;
+            width: 45px;
+            height: 45px;
         }
 
         #top-right-name {
@@ -233,7 +233,7 @@ body, html {
         display: flex;
         flex-direction: column;
         gap: 15px;
-        justify-content: flex-end;
+        justify-content: flex-start;
     }
 
     .your-projects-title {
@@ -244,7 +244,7 @@ body, html {
     .cards-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, minmax(220px, 250px));
+        grid-template-rows: repeat(3, minmax(240px, 265px));
         gap: 25px;
     }
 
@@ -290,19 +290,15 @@ body, html {
 
     /* Announcements and Trending*/
     .announcements-trending-container {
-        border: 2px solid green;
-
         display: flex;
         flex-direction: column;
-        padding-top: 6px;
         gap: 30px;
 
-        min-width: 400px;
+        min-width: 450px;
     }
 
     /* Announcements */
     .announcements-container {
-        flex: 1;
         display: flex;
         flex-direction: column;
         gap: 15px;
@@ -318,7 +314,7 @@ body, html {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 30px;
+        padding: 35px;
         gap: 20px;
 
         background-color: white;
@@ -347,5 +343,39 @@ body, html {
     }
     /* Trending */
     .trending-container {
-        border: 2px solid red;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        flex: 1;
+    }
+
+    .trending-title {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .trending-content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        gap: 20px;
+        background-color: white;
+        border-radius: 8px;
+    }
+
+    .trending-pair {
+        display: flex;
+        gap: 20px;
+    }
+
+    .trending-name-text {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .gray-text {
+        color: #6b7280;
     }
