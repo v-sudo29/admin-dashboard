@@ -288,11 +288,64 @@ body, html {
         gap: 30px;
     }
 
-    /* Announcements */
+    /* Announcements and Trending*/
     .announcements-trending-container {
         border: 2px solid green;
 
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        padding-top: 6px;
+        gap: 30px;
+
+        min-width: 400px;
+    }
+
+    /* Announcements */
+    .announcements-container {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .announcements-title {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .announcements-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        gap: 20px;
+
+        background-color: white;
+        border-radius: 8px;
+    }
+
+    .announcements-text {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .announcements-title-text {
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .announcements-text > div + div {
+        color: #6b7280;
+    }
+
+    hr {
+        size: 1;
+        width: 100%;
+        color: #6b7280;
+    }
+    /* Trending */
+    .trending-container {
+        border: 2px solid red;
     }
