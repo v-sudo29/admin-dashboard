@@ -32,6 +32,7 @@ body, html {
     height: 100vh;
 
     background-color: #0284c7;
+    position: sticky;
 }
 
 .icon-dashboard-container {
@@ -235,6 +236,8 @@ body, html {
     padding-bottom: 50px;
     padding-right: 40px;
     gap: 20px;
+
+    grid-auto-flow: row;
 }
 
     /* Projects */
@@ -253,7 +256,7 @@ body, html {
     .cards-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, minmax(240px, 265px));
+        grid-template-rows: repeat(3, minmax(200px, 265px));
         gap: 25px;
     }
 
